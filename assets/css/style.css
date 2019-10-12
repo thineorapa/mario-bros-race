@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Sigmar One', cursive;
+}
+
+body {
+   background: url('http://images5.fanpop.com/image/photos/26500000/Mario-Background-nintendo-26503062-1680-1050.jpg'); 
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center bottom;
+   background-size: cover;
+}
+
+h1 {
+	font-size: 50px;
+	margin-bottom: 20px;
+	-webkit-text-stroke: 1px black;
+   	color: magenta;
+   	text-shadow:
+       5px 5px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       2px 2px 0 #000;
+
+}
+
+.character {
+	position: absolute;
+	width: 100px;
+}
+
+
+#player {
+	top: 200px;
+}
+
+img {
+	width: 200px;
+	height: 170px;
+}
+
+#player {
+	margin-top: 22%;
+}
+
+#ai {
+	margin-top: 60px;
+}
+
+button {
+	position: center;
+}
+
+.btn {
+	color: black;
+}
+
+.top {
+	padding-top: 50px;
+}
+
+.start {
+	font-size: 20px;
+	margin-right: 20px;
+
+}
+
+.start:hover {
+	background-color: magenta;
+	color: white;
+	border-radius: 10px;
+}
+
+
+/*media Queries*/
+/*mobile style*/
+@media only screen and (max-width:415px) {
+
+	img {
+	width: 130px;
+	height: 90px;
+ }
+
+ #player {
+	margin-top: 90%;
+}
+
+
+}
+	
+
+/*tablet style*/
+@media only screen and (min-width:410px) and (max-width:960px) {
+
+	img {
+	width: 200px;
+	height: 150px;
+ }
+
+ #player {
+	margin-top: 80%;
+}
+
+	
+
+/*Desktop style*/
+@media only screen and (min-width:961px) {
+	
+}
